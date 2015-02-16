@@ -1,0 +1,9 @@
+-main Main
+-dce full
+-D js-es5
+-D js-flatten
+-D analyzer
+-js main.js
+-lib pixijs
+-lib sui
+--connect 6001
